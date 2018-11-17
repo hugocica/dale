@@ -1,0 +1,88 @@
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block; }
+
+.clearfix:after {
+  clear: both; }
+
+.hidden {
+  display: none !important; }
+
+.vertical-helper {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle; }
+
+.vertical-content {
+  display: inline-block;
+  width: 99%;
+  vertical-align: middle; }
+
+body {
+  margin: 0;
+  font-family: "Work Sans";
+  font-weight: 500; }
+
+.content-wrapper .main-header {
+  background-color: #2D2D2D;
+  height: 15vh;
+  display: flex;
+  align-items: center; }
+  .content-wrapper .main-header .logo-icon {
+    height: 80px; }
+
+.content-wrapper .main-footer {
+  background-color: #0AA5FA;
+  height: 32vh;
+  display: flex;
+  align-items: center; }
+  .content-wrapper .main-footer .logo-footer {
+    width: 165px; }
+  .content-wrapper .main-footer .social-wrapper {
+    display: flex;
+    flex-direction: column; }
+    .content-wrapper .main-footer .social-wrapper .social-dupla {
+      display: flex;
+      width: 100%; }
+      .content-wrapper .main-footer .social-wrapper .social-dupla .social-link {
+        width: 50%; }
+        .content-wrapper .main-footer .social-wrapper .social-dupla .social-link img {
+          width: 75px; }
+  .content-wrapper .main-footer .instituicao-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .content-wrapper .main-footer .instituicao-wrapper .faac {
+      width: 180px; }
+    .content-wrapper .main-footer .instituicao-wrapper .unesp {
+      width: 200px; }
+  .content-wrapper .main-footer .dev-container .dev-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #484849;
+    padding: 5px 20px;
+    margin-left: 4px;
+    font-size: 22px;
+    color: #484849; }
+    .content-wrapper .main-footer .dev-container .dev-box:hover {
+      text-decoration: none; }
+    .content-wrapper .main-footer .dev-container .dev-box .fa-github {
+      -webkit-transition: -webkit-transform 0.8s ease-in-out;
+      -ms-transition: -ms-transform 0.8s ease-in-out;
+      transition: transform 0.8s ease-in-out;
+      font-size: 36px;
+      margin-right: 8px; }
+    .content-wrapper .main-footer .dev-container .dev-box span {
+      display: inline-block; }
+    .content-wrapper .main-footer .dev-container .dev-box:hover a {
+      color: #fff; }
+    .content-wrapper .main-footer .dev-container .dev-box:hover .fa-github {
+      transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg); }
+
+.content-wrapper.relatorio {
+  background-color: #484849; }
+  .content-wrapper.relatorio .main-container {
+    height: 53vh; }

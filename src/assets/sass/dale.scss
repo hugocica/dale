@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: $main-font;
+    font-weight: 500;
+}
+
+.content-wrapper {
+    .main-header {
+        background-color: $dale-black;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+
+        .logo-icon {
+            height: 80px;
+        }
+    }
+
+    .main-footer {
+        background-color: $dale-blue;
+        height: 32vh;
+        display: flex;
+        align-items: center;
+
+        .logo-footer {
+            width: 165px;
+        }
+        .social-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .social-dupla {
+                display: flex;
+                width: 100%;
+
+                .social-link {
+                    width: 50%;
+
+                    img {
+                        width: 75px;
+                    }
+                }
+            }
+        }
+        .instituicao-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .faac {
+                // height: 90px;
+                width: 180px;
+            }
+            .unesp {
+                width: 200px;
+            }
+        }
+        .dev-container {
+            .dev-box {
+                display: flex;
+                align-items: center;
+                border: 2px solid $dale-darkgray;
+                padding: 5px 20px;
+                margin-left: 4px;
+                font-size: 22px;
+                color: $dale-darkgray;
+
+                &:hover {
+                    text-decoration: none;
+                }
+                .fa-github {
+                    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+                    -ms-transition: -ms-transform 0.8s ease-in-out;
+                    transition: transform 0.8s ease-in-out;
+                    font-size: 36px;
+                    margin-right: 8px;
+                }
+                span {
+                    display: inline-block;
+                }
+                &:hover {
+                    a {
+                        color: #fff;
+                    }
+                    .fa-github {
+                        transform: rotate(360deg);
+                        -ms-transform:rotate(360deg);
+                        -webkit-transform:rotate(360deg);
+                    }
+                }
+            }
+        }
+    }
+
+    &.relatorio {
+        background-color: $dale-darkgray;
+
+        .main-container {
+            height: 53vh;
+        }
+    }
+}
