@@ -20,7 +20,7 @@ class Footer extends Component {
                         <img src={LogoFooter} alt="dale logo" className="logo-footer" />
                     </div>
                     <div className="col-md-3">
-                        <p>Realizador deste projeto:</p>
+                        <p>Siga na redes sociais:</p>
                         <div className="social-wrapper">
                             <div className="social-dupla">
                                 <a target="_blank" href="" className="social-link">

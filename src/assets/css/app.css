@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.content-wrapper.relatorio .book-page .citacao:before {
+.dale-btn:before, .content-wrapper.relatorio .book-page .citacao:before {
   content: "";
   position: absolute;
   display: block; }
@@ -37,103 +37,135 @@ body {
   font-family: "Work Sans";
   font-weight: 500; }
 
-.content-wrapper .main-header {
-  background-color: #2D2D2D;
-  height: 15vh;
-  display: flex;
-  align-items: center; }
-  .content-wrapper .main-header .logo-icon {
-    height: 80px; }
-
-.content-wrapper .main-footer {
-  background-color: #0AA5FA;
-  height: 32vh;
-  display: flex;
-  align-items: center; }
-  .content-wrapper .main-footer .logo-footer {
-    width: 165px; }
-  .content-wrapper .main-footer .social-wrapper {
-    display: flex;
-    flex-direction: column; }
-    .content-wrapper .main-footer .social-wrapper .social-dupla {
-      display: flex;
-      width: 100%; }
-      .content-wrapper .main-footer .social-wrapper .social-dupla .social-link {
-        width: 50%; }
-        .content-wrapper .main-footer .social-wrapper .social-dupla .social-link img {
-          width: 75px; }
-  .content-wrapper .main-footer .instituicao-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .content-wrapper .main-footer .instituicao-wrapper .faac {
-      width: 180px; }
-    .content-wrapper .main-footer .instituicao-wrapper .unesp {
-      width: 200px; }
-  .content-wrapper .main-footer .dev-container p {
-    margin-bottom: 15px; }
-  .content-wrapper .main-footer .dev-container .dev-box {
-    display: flex;
-    align-items: center;
-    border: 2px solid #484849;
-    padding: 5px 20px;
-    margin-left: 4px;
-    font-size: 22px;
-    color: #484849;
-    transition: all 0.8s ease-in-out; }
-    .content-wrapper .main-footer .dev-container .dev-box:hover, .content-wrapper .main-footer .dev-container .dev-box:focus, .content-wrapper .main-footer .dev-container .dev-box:active {
-      text-decoration: none;
-      background-color: white;
-      color: #0AA5FA;
-      border-color: white; }
-    .content-wrapper .main-footer .dev-container .dev-box .fa-github {
-      transition: transform 0.8s ease-in-out;
-      font-size: 36px;
-      margin-right: 8px; }
-    .content-wrapper .main-footer .dev-container .dev-box span {
-      display: inline-block; }
-    .content-wrapper .main-footer .dev-container .dev-box:hover a {
-      color: #fff; }
-    .content-wrapper .main-footer .dev-container .dev-box:hover .fa-github {
-      transform: rotateY(360deg); }
-
-.content-wrapper.relatorio {
-  background-color: #484849; }
-  .content-wrapper.relatorio .main-container {
-    height: 53vh; }
-  .content-wrapper.relatorio .book-page {
-    position: absolute;
-    top: 0;
+.dale-btn {
+  position: relative;
+  cursor: pointer; }
+  .dale-btn:before {
+    background-color: #097596;
+    width: calc(100% - 1px);
+    height: calc(100% + 16px);
+    border: 2px solid #2D2D2D;
+    top: -8px;
+    left: 0; }
+  .dale-btn:hover .btn-element {
+    top: -6px;
+    left: -6px; }
+  .dale-btn .btn-element {
+    font-family: "Work Sans";
+    font-weight: 500;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #0AA5FA;
+    color: white;
+    padding: 8px 15px;
+    border: 2px solid #2D2D2D;
+    position: relative;
     left: 0;
+    top: 0;
+    transition: all ease .3s; }
+
+.content-wrapper {
+  background-color: #484849; }
+  .content-wrapper .main-header {
+    background-color: #2D2D2D;
+    height: 15vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    padding: 30px 20px; }
-    .content-wrapper.relatorio .book-page.capa {
-      justify-content: center; }
-    .content-wrapper.relatorio .book-page .citacao {
-      font-size: 20px;
-      position: relative;
-      padding-left: 7rem;
-      padding-right: 12rem; }
-      .content-wrapper.relatorio .book-page .citacao:before {
-        content: '“';
-        top: -70px;
-        left: 6.5rem;
-        font-size: 100px; }
-    .content-wrapper.relatorio .book-page p {
-      width: 100%;
-      font-size: 12px; }
-      .content-wrapper.relatorio .book-page p:not(.title) {
-        padding-left: 7rem;
-        margin-bottom: 0; }
-  .content-wrapper.relatorio .react-page-flip__book {
-    height: 100% !important; }
-    .content-wrapper.relatorio .react-page-flip__book .react-page-flip__book-wrapper-page-side {
+    align-items: center; }
+    .content-wrapper .main-header .logo-icon {
+      height: 80px; }
+  .content-wrapper .main-footer {
+    background-color: #0AA5FA;
+    height: 32vh;
+    display: flex;
+    align-items: center; }
+    .content-wrapper .main-footer .logo-footer {
+      width: 165px; }
+    .content-wrapper .main-footer .social-wrapper {
       display: flex;
+      flex-direction: column; }
+      .content-wrapper .main-footer .social-wrapper .social-dupla {
+        display: flex;
+        width: 100%; }
+        .content-wrapper .main-footer .social-wrapper .social-dupla .social-link {
+          width: 50%; }
+          .content-wrapper .main-footer .social-wrapper .social-dupla .social-link img {
+            width: 75px; }
+    .content-wrapper .main-footer .instituicao-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .content-wrapper .main-footer .instituicao-wrapper .faac {
+        width: 180px; }
+      .content-wrapper .main-footer .instituicao-wrapper .unesp {
+        width: 200px; }
+    .content-wrapper .main-footer .dev-container p {
+      margin-bottom: 15px; }
+    .content-wrapper .main-footer .dev-container .dev-box {
+      display: flex;
+      align-items: center;
+      border: 2px solid #484849;
+      padding: 5px 20px;
+      margin-left: 4px;
+      font-size: 22px;
+      color: #484849;
+      transition: all 0.8s ease-in-out; }
+      .content-wrapper .main-footer .dev-container .dev-box:hover, .content-wrapper .main-footer .dev-container .dev-box:focus, .content-wrapper .main-footer .dev-container .dev-box:active {
+        text-decoration: none;
+        background-color: white;
+        color: #0AA5FA;
+        border-color: white; }
+      .content-wrapper .main-footer .dev-container .dev-box .fa-github {
+        transition: transform 0.8s ease-in-out;
+        font-size: 36px;
+        margin-right: 8px; }
+      .content-wrapper .main-footer .dev-container .dev-box span {
+        display: inline-block; }
+      .content-wrapper .main-footer .dev-container .dev-box:hover a {
+        color: #fff; }
+      .content-wrapper .main-footer .dev-container .dev-box:hover .fa-github {
+        transform: rotateY(360deg); }
+  .content-wrapper.relatorio {
+    background-color: #484849; }
+    .content-wrapper.relatorio .main-container {
+      height: 53vh; }
+    .content-wrapper.relatorio .book-page {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: white; }
+      width: 100%;
+      height: 100%;
+      padding: 30px 20px; }
+      .content-wrapper.relatorio .book-page.capa {
+        justify-content: center; }
+      .content-wrapper.relatorio .book-page .citacao {
+        font-size: 20px;
+        position: relative;
+        padding-left: 7rem;
+        padding-right: 12rem; }
+        .content-wrapper.relatorio .book-page .citacao:before {
+          content: '“';
+          top: -70px;
+          left: 6.5rem;
+          font-size: 100px; }
+      .content-wrapper.relatorio .book-page p {
+        width: 100%;
+        font-size: 12px; }
+        .content-wrapper.relatorio .book-page p:not(.title) {
+          padding-left: 7rem;
+          margin-bottom: 0; }
+    .content-wrapper.relatorio .react-page-flip__book {
+      height: 100% !important; }
+      .content-wrapper.relatorio .react-page-flip__book .react-page-flip__book-wrapper-page-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white; }
+  .content-wrapper .main-container {
+    min-height: 20vh;
+    align-items: center;
+    display: flex; }

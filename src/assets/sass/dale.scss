@@ -4,7 +4,45 @@ body {
     font-weight: 500;
 }
 
+.dale-btn {
+    position: relative;
+    cursor: pointer;
+
+    &:before {
+        @extend %bfaf;
+        background-color: $dale-blue-shaddow;
+        width: calc(100% - 1px);
+        height: calc(100% + 16px);
+        border: 2px solid $dale-black;
+        top: -8px;
+        left: 0;
+    }
+    &:hover {
+        .btn-element {
+            top: -6px;
+            left: -6px;
+        }
+    }
+    .btn-element {
+        font-family: $main-font;
+        font-weight: 500;
+        text-transform: lowercase;
+        text-decoration: none;
+        font-size: 18px;
+        background-color: $dale-blue;
+        color: white;
+        padding: 8px 15px;
+        border: 2px solid $dale-black;
+        position: relative;
+        left: 0;
+        top: 0;
+        transition: all ease .3s;
+    }
+}
+
 .content-wrapper {
+    background-color: $dale-darkgray;
+
     .main-header {
         background-color: $dale-black;
         height: 15vh;
@@ -150,5 +188,10 @@ body {
                 background: white;
             }
         }
+    }
+    .main-container {
+        min-height: 20vh;
+        align-items: center;
+        display: flex;
     }
 }
