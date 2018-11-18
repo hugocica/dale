@@ -10,7 +10,9 @@ class Menu extends Component {
         return (
             <header className="main-header">
                 <div className="container">
-                    <img src={MenuLogo} alt="dale logo" className="logo-icon" />
+                    <Link to="/">
+                        <img src={MenuLogo} alt="dale logo" className="logo-icon" />
+                    </Link>
                 </div>
             </header>
         );

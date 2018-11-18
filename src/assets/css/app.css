@@ -1,3 +1,9 @@
+@charset "UTF-8";
+.content-wrapper.relatorio .book-page .citacao:before {
+  content: "";
+  position: absolute;
+  display: block; }
+
 .clearfix:before, .clearfix:after {
   content: " ";
   display: block; }
@@ -8,16 +14,23 @@
 .hidden {
   display: none !important; }
 
-.vertical-helper {
-  display: inline-block;
-  width: 0;
-  height: 100%;
-  vertical-align: middle; }
+.red-bg {
+  background-color: #E01A27; }
 
-.vertical-content {
-  display: inline-block;
-  width: 99%;
-  vertical-align: middle; }
+.yellow-bg {
+  background-color: #FAFF10; }
+
+.green-bg {
+  background-color: #6AD325; }
+
+.blue-bg {
+  background-color: #0AA5FA; }
+
+.dark-bg {
+  background-color: #484849; }
+
+.white-text {
+  color: white; }
 
 body {
   margin: 0;
@@ -57,6 +70,8 @@ body {
       width: 180px; }
     .content-wrapper .main-footer .instituicao-wrapper .unesp {
       width: 200px; }
+  .content-wrapper .main-footer .dev-container p {
+    margin-bottom: 15px; }
   .content-wrapper .main-footer .dev-container .dev-box {
     display: flex;
     align-items: center;
@@ -64,12 +79,14 @@ body {
     padding: 5px 20px;
     margin-left: 4px;
     font-size: 22px;
-    color: #484849; }
-    .content-wrapper .main-footer .dev-container .dev-box:hover {
-      text-decoration: none; }
+    color: #484849;
+    transition: all 0.8s ease-in-out; }
+    .content-wrapper .main-footer .dev-container .dev-box:hover, .content-wrapper .main-footer .dev-container .dev-box:focus, .content-wrapper .main-footer .dev-container .dev-box:active {
+      text-decoration: none;
+      background-color: white;
+      color: #0AA5FA;
+      border-color: white; }
     .content-wrapper .main-footer .dev-container .dev-box .fa-github {
-      -webkit-transition: -webkit-transform 0.8s ease-in-out;
-      -ms-transition: -ms-transform 0.8s ease-in-out;
       transition: transform 0.8s ease-in-out;
       font-size: 36px;
       margin-right: 8px; }
@@ -78,11 +95,45 @@ body {
     .content-wrapper .main-footer .dev-container .dev-box:hover a {
       color: #fff; }
     .content-wrapper .main-footer .dev-container .dev-box:hover .fa-github {
-      transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-      -webkit-transform: rotate(360deg); }
+      transform: rotateY(360deg); }
 
 .content-wrapper.relatorio {
   background-color: #484849; }
   .content-wrapper.relatorio .main-container {
     height: 53vh; }
+  .content-wrapper.relatorio .book-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px; }
+    .content-wrapper.relatorio .book-page.capa {
+      justify-content: center; }
+    .content-wrapper.relatorio .book-page .citacao {
+      font-size: 20px;
+      position: relative;
+      padding-left: 7rem;
+      padding-right: 12rem; }
+      .content-wrapper.relatorio .book-page .citacao:before {
+        content: '“';
+        top: -70px;
+        left: 6.5rem;
+        font-size: 100px; }
+    .content-wrapper.relatorio .book-page p {
+      width: 100%;
+      font-size: 12px; }
+      .content-wrapper.relatorio .book-page p:not(.title) {
+        padding-left: 7rem;
+        margin-bottom: 0; }
+  .content-wrapper.relatorio .react-page-flip__book {
+    height: 100% !important; }
+    .content-wrapper.relatorio .react-page-flip__book .react-page-flip__book-wrapper-page-side {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: white; }

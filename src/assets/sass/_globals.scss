@@ -18,18 +18,23 @@
     display: none !important;
 }
 
-.vertical-helper {
-  display: inline-block;
-  width: 0;
-  height: 100%;
-  vertical-align: middle;
+.red-bg {
+    background-color: $dale-red;
 }
-
-.vertical-content {
-  display: inline-block;
-  width: 99%;
-  // height: 100%;
-  vertical-align: middle;
+.yellow-bg {
+    background-color: $dale-yellow
+}
+.green-bg {
+    background-color: $dale-green;
+}
+.blue-bg {
+    background-color: $dale-blue;
+}
+.dark-bg {
+    background-color: $dale-darkgray;
+}
+.white-text {
+    color: white;
 }
 
 @mixin linearGradient($top, $bottom){

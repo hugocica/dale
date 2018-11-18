@@ -56,6 +56,9 @@ body {
             }
         }
         .dev-container {
+            p {
+                margin-bottom: 15px;
+            }
             .dev-box {
                 display: flex;
                 align-items: center;
@@ -64,13 +67,15 @@ body {
                 margin-left: 4px;
                 font-size: 22px;
                 color: $dale-darkgray;
+                transition: all 0.8s ease-in-out;
 
-                &:hover {
+                &:hover, &:focus, &:active {
                     text-decoration: none;
+                    background-color: white;
+                    color: $dale-blue;
+                    border-color: white;
                 }
                 .fa-github {
-                    -webkit-transition: -webkit-transform 0.8s ease-in-out;
-                    -ms-transition: -ms-transform 0.8s ease-in-out;
                     transition: transform 0.8s ease-in-out;
                     font-size: 36px;
                     margin-right: 8px;
@@ -83,9 +88,7 @@ body {
                         color: #fff;
                     }
                     .fa-github {
-                        transform: rotate(360deg);
-                        -ms-transform:rotate(360deg);
-                        -webkit-transform:rotate(360deg);
+                        transform: rotateY(360deg);
                     }
                 }
             }
@@ -97,6 +100,55 @@ body {
 
         .main-container {
             height: 53vh;
+        }
+        .book-page {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            padding: 30px 20px;
+
+            &.capa {
+                justify-content: center;
+            }
+            .citacao {
+                font-size: 20px;
+                position: relative;
+                padding-left: 7rem;
+                padding-right: 12rem;
+
+                &:before {
+                    @extend %bfaf;
+                    content: '“';
+                    top: -70px;
+                    left: 6.5rem;
+                    font-size: 100px;
+                }
+            }
+            p {
+                width: 100%;
+                font-size: 12px;
+
+                &:not(.title) {
+                    padding-left: 7rem;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .react-page-flip__book {
+            height: 100% !important;
+
+            .react-page-flip__book-wrapper-page-side  {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: white;
+            }
         }
     }
 }

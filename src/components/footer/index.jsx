@@ -23,18 +23,18 @@ class Footer extends Component {
                         <p>Realizador deste projeto:</p>
                         <div className="social-wrapper">
                             <div className="social-dupla">
-                                <a href="" className="social-link">
+                                <a target="_blank" href="" className="social-link">
                                     <img src={FaceIcon} alt=""/>
                                 </a>
-                                <a href="" className="social-link">
+                                <a target="_blank" href="" className="social-link">
                                     <img src={InstaIcon} alt=""/>
                                 </a>
                             </div>
                             <div className="social-dupla">
-                                <a href="" className="social-link">
+                                <a target="_blank" href="https://www.behance.net/CainaGuari" className="social-link">
                                     <img src={BehanceIcon} alt=""/>
                                 </a>
-                                <a href="" className="social-link">
+                                <a target="_blank" href="" className="social-link">
                                     <img src={LinkedinIcon} alt=""/>
                                 </a>
                             </div>
