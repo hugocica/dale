@@ -35,7 +35,7 @@ class RelatorioIndex extends Component {
                         <Book.Page>
                             <Book.Side>
                                 <div className="book-page right">
-                                    <p className="title"><strong>1. A música eletrônica e o que <br /> ela tem a ver com este projeto</strong></p>
+                                    <p className="subtitle"><strong>1. A música eletrônica e o que <br /> ela tem a ver com este projeto</strong></p>
 
                                     <p>
                                         A música eletrônica tem seus primórdios com Pierre Schaeffer, na França em 1948 com músicas feitas a partir de ruídos de toca-discos, também chamado na época de “musique concrète”. Porém só se popularizou com o surgimento dos computadores pessoais no início dos anos 90, com a facilitação das produções musicais sem a necessidade da estrutura de um estúdio profissional, mas com resultados se mostrando similares à qualidade dos mesmos. Com isso, muitos produtores musicais e, consequentemente, seus seguidores e ouvintes começaram a surgir e dar corpo ao gênero musical que hoje chamamos de música eletrônica e seu movimento que abarca um público extremamente grande e cada vez maior.
@@ -55,6 +55,71 @@ class RelatorioIndex extends Component {
                                 </div>
                             </Book.Side>
                         </Book.Page>
+
+                        <Book.Page>
+                            <Book.Side>
+                                <div className="book-page right">
+                                    <p className="subtitle"><strong>1. A música eletrônica e o que <br /> ela tem a ver com este projeto</strong></p>
+
+                                    <p>
+                                        A música eletrônica tem seus primórdios com Pierre Schaeffer, na França em 1948 com músicas feitas a partir de ruídos de toca-discos, também chamado na época de “musique concrète”. Porém só se popularizou com o surgimento dos computadores pessoais no início dos anos 90, com a facilitação das produções musicais sem a necessidade da estrutura de um estúdio profissional, mas com resultados se mostrando similares à qualidade dos mesmos. Com isso, muitos produtores musicais e, consequentemente, seus seguidores e ouvintes começaram a surgir e dar corpo ao gênero musical que hoje chamamos de música eletrônica e seu movimento que abarca um público extremamente grande e cada vez maior.
+                                    </p>
+                                    <p>
+
+                                    </p>
+
+                                </div>
+                            </Book.Side>
+
+                            <Book.Side>
+                                <div className="book-page left">
+                                <p className="subtitle"><strong>1. A música eletrônica e o que ela tem a ver com este projeto</strong></p>
+
+                                <p>
+                                    A música eletrônica tem seus primórdios com Pierre Schaeffer, na França em 1948 com músicas feitas a partir de ruídos de toca-discos, também chamado na época de “musique concrète”. Porém só se popularizou com o surgimento dos computadores pessoais no início dos anos 90, com a facilitação das produções musicais sem a necessidade da estrutura de um estúdio profissional, mas com resultados se mostrando similares à qualidade dos mesmos. Com isso, muitos produtores musicais e, consequentemente, seus seguidores e ouvintes começaram a surgir e dar corpo ao gênero musical que hoje chamamos de música eletrônica e seu movimento que abarca um público extremamente grande e cada vez maior.
+                                </p>
+                                <p>
+
+                                </p>
+                                </div>
+                            </Book.Side>
+                        </Book.Page>
+
+
+                        {/*
+                          <br /> => quebra de linha
+                          <em></em>
+
+                          <Book.Page>
+                              <Book.Side>
+                                  <div className="book-page right">
+                                      <p className="subtitle"><strong>1. A música eletrônica e o que <br /> ela tem a ver com este projeto</strong></p>
+
+                                      <p>
+                                          A música eletrônica tem seus primórdios com Pierre Schaeffer, na França em 1948 com músicas feitas a partir de ruídos de toca-discos, também chamado na época de “musique concrète”. Porém só se popularizou com o surgimento dos computadores pessoais no início dos anos 90, com a facilitação das produções musicais sem a necessidade da estrutura de um estúdio profissional, mas com resultados se mostrando similares à qualidade dos mesmos. Com isso, muitos produtores musicais e, consequentemente, seus seguidores e ouvintes começaram a surgir e dar corpo ao gênero musical que hoje chamamos de música eletrônica e seu movimento que abarca um público extremamente grande e cada vez maior.
+                                      </p>
+                                      <p>
+
+                                      </p>
+
+                                  </div>
+                              </Book.Side>
+
+                              <Book.Side>
+                                  <div className="book-page left">
+                                  <p className="subtitle"><strong>1. A música eletrônica e o que <br /> ela tem a ver com este projeto</strong></p>
+
+                                  <p>
+                                      A música eletrônica tem seus primórdios com Pierre Schaeffer, na França em 1948 com músicas feitas a partir de ruídos de toca-discos, também chamado na época de “musique concrète”. Porém só se popularizou com o surgimento dos computadores pessoais no início dos anos 90, com a facilitação das produções musicais sem a necessidade da estrutura de um estúdio profissional, mas com resultados se mostrando similares à qualidade dos mesmos. Com isso, muitos produtores musicais e, consequentemente, seus seguidores e ouvintes começaram a surgir e dar corpo ao gênero musical que hoje chamamos de música eletrônica e seu movimento que abarca um público extremamente grande e cada vez maior.
+                                  </p>
+                                  <p>
+
+                                  </p>
+                                  </div>
+                              </Book.Side>
+                          </Book.Page>
+
+                          */}
                     </Book>
                 </div>
 
