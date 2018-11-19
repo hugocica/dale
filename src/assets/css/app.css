@@ -147,20 +147,27 @@ body {
     background-color: #484849; }
     .content-wrapper.relatorio .main-container {
       height: 68vh;
-      display: flex;
-      padding-top: 15vh; }
+      display: flex; }
     .content-wrapper.relatorio .book-page {
       position: absolute;
       top: 0;
       left: 0;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       width: 100%;
       height: 100%;
-      padding: 30px 20px; }
+      padding: 30px 40px; }
       .content-wrapper.relatorio .book-page.capa {
+        justify-content: center; }
+      .content-wrapper.relatorio .book-page.left p:not(.title) {
+        padding-right: 7rem;
+        margin-bottom: 0; }
+      .content-wrapper.relatorio .book-page.right p:not(.title) {
+        padding-left: 7rem;
+        margin-bottom: 0; }
+      .content-wrapper.relatorio .book-page.vertical-aligned {
         justify-content: center; }
       .content-wrapper.relatorio .book-page .citacao {
         font-size: 20px;
@@ -176,10 +183,8 @@ body {
       .content-wrapper.relatorio .book-page p {
         width: 100%;
         color: #484849; }
-        .content-wrapper.relatorio .book-page p:not(.title) {
-          padding-left: 7rem;
-          margin-bottom: 0; }
     .content-wrapper.relatorio .react-page-flip__book {
+      width: 100% !important;
       height: 100% !important; }
       .content-wrapper.relatorio .react-page-flip__book .react-page-flip__book-wrapper-page-side {
         display: flex;
