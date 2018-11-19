@@ -73,10 +73,13 @@ body {
 .content-wrapper {
   background-color: #484849; }
   .content-wrapper .main-header {
-    background-color: #2D2D2D;
+    background-color: #484849;
+    border-bottom: 1px solid white;
     height: 15vh;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    z-index: 1;
+    width: 100%; }
     @media (min-width: 319px) and (max-width: 767px) {
       .content-wrapper .main-header {
         height: auto; } }
@@ -143,8 +146,9 @@ body {
   .content-wrapper.relatorio {
     background-color: #484849; }
     .content-wrapper.relatorio .main-container {
-      height: 53vh;
-      display: flex; }
+      height: 68vh;
+      display: flex;
+      padding-top: 15vh; }
     .content-wrapper.relatorio .book-page {
       position: absolute;
       top: 0;
@@ -182,6 +186,11 @@ body {
         justify-content: center;
         align-items: center;
         background: white; }
+  .content-wrapper.criador .main-container {
+    display: block; }
+    .content-wrapper.criador .main-container #goku h2 {
+      margin: 0;
+      color: white; }
   .content-wrapper .main-container {
     display: inline-block; }
     .content-wrapper .main-container p {

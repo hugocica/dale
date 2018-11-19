@@ -49,10 +49,14 @@ body {
     background-color: $dale-darkgray;
 
     .main-header {
-        background-color: $dale-black;
+        background-color: rgba($dale-darkgray, 1);
+        border-bottom: 1px solid white;
         height: 15vh;
         display: flex;
         align-items: center;
+        // position: fixed;
+        z-index: 1;
+        width: 100%;
 
         @include phone {
             height: auto;
@@ -154,8 +158,9 @@ body {
         background-color: $dale-darkgray;
 
         .main-container {
-            height: 53vh;
+            height: 68vh;
             display: flex;
+            padding-top: 15vh;
         }
         .book-page {
             position: absolute;
@@ -206,6 +211,18 @@ body {
                 justify-content: center;
                 align-items: center;
                 background: white;
+            }
+        }
+    }
+    &.criador {
+        .main-container {
+            display: block;
+            
+            #goku {
+                h2 {
+                    margin: 0;
+                    color: white;
+                }
             }
         }
     }

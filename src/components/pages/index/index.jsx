@@ -19,7 +19,7 @@ class IndexPage extends Component {
                 <Menu />
 
                 <div className="main-container">
-                    <section className="slider-wrapper"></section>
+                    <section className="slider-wrapper" style={{ height: '65vh', backgroundColor: '#E11A27' }}></section>
                     <div className="main-container">
 
                         <section id="slider" className="reg-bg col-md-12">
