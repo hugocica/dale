@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import LogoFooter from '../../assets/img/dale_logo.svg';
-import FaceIcon from '../../assets/img/face_icon.svg';
-import InstaIcon from '../../assets/img/insta_icon.svg';
-import BehanceIcon from '../../assets/img/be_icon.svg';
-import LinkedinIcon from '../../assets/img/linkedin_icon.svg';
-import UnespIcon from '../../assets/img/unesp_icon.svg';
-import FaacIcon from '../../assets/img/faac_icon.svg';
+import FaceIcon from '../../assets/img/sociais/face_icon.svg';
+import InstaIcon from '../../assets/img/sociais/insta_icon.svg';
+import BehanceIcon from '../../assets/img/sociais/be_icon.svg';
+import LinkedinIcon from '../../assets/img/sociais/linkedin_icon.svg';
+import UnespIcon from '../../assets/img/instituicao/unesp_icon.svg';
+import FaacIcon from '../../assets/img/instituicao/faac_icon.svg';
 
 class Footer extends Component {
 
@@ -45,7 +45,7 @@ class Footer extends Component {
                         <img src={UnespIcon} alt="" className="unesp"/>
                     </div>
                     <div className="dev-container col-md-3 col-sm-5">
-                        <p>Desenvolvido por:</p>
+                        <p>Desenvolvimento web:</p>
                         <a className="dev-box" href="https://github.com/hugocica/" target="_blank">
                             <i className="fa fa-github" aria-hidden="true"></i>
                             <span>Hugo Cicarelli</span>

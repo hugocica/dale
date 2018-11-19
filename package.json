@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "react-slick": "^0.23.2"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/assets/sass/app.scss src/assets/css/app.css --output-style compressed",

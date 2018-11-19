@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.dale-btn:before, .content-wrapper.relatorio .book-page .citacao:before {
+.dale-btn:before, .content-wrapper.relatorio .book-page .citacao:before, .content-wrapper #modulos .modulo-box .inner-wrapper .box-title:after {
   content: "";
   position: absolute;
   display: block; }
@@ -29,23 +29,28 @@
 .dark-bg {
   background-color: #484849; }
 
+.light-bg {
+  background-color: #D9E6E9; }
+
 .white-text {
   color: white; }
 
 body {
   margin: 0;
   font-family: "Work Sans";
-  font-weight: 500; }
+  font-weight: 500;
+  font-size: 14px; }
 
 .dale-btn {
   position: relative;
-  cursor: pointer; }
+  cursor: pointer;
+  display: inline-flex; }
   .dale-btn:before {
     background-color: #097596;
-    width: calc(100% - 1px);
-    height: calc(100% + 16px);
+    width: 100%;
+    height: 100%;
     border: 2px solid #2D2D2D;
-    top: -8px;
+    top: 0;
     left: 0; }
   .dale-btn:hover .btn-element {
     top: -6px;
@@ -58,7 +63,7 @@ body {
     font-size: 18px;
     background-color: #0AA5FA;
     color: white;
-    padding: 8px 15px;
+    padding: 8px 40px;
     border: 2px solid #2D2D2D;
     position: relative;
     left: 0;
@@ -72,6 +77,9 @@ body {
     height: 15vh;
     display: flex;
     align-items: center; }
+    @media (min-width: 319px) and (max-width: 767px) {
+      .content-wrapper .main-header {
+        height: auto; } }
     .content-wrapper .main-header .logo-icon {
       height: 80px; }
   .content-wrapper .main-footer {
@@ -79,8 +87,15 @@ body {
     height: 32vh;
     display: flex;
     align-items: center; }
+    @media (min-width: 319px) and (max-width: 767px) {
+      .content-wrapper .main-footer {
+        height: auto; } }
+    @media (min-width: 319px) and (max-width: 767px) {
+      .content-wrapper .main-footer .col-md-3 {
+        text-align: center; } }
     .content-wrapper .main-footer .logo-footer {
-      width: 165px; }
+      width: 165px;
+      margin: 0 auto; }
     .content-wrapper .main-footer .social-wrapper {
       display: flex;
       flex-direction: column; }
@@ -128,7 +143,8 @@ body {
   .content-wrapper.relatorio {
     background-color: #484849; }
     .content-wrapper.relatorio .main-container {
-      height: 53vh; }
+      height: 53vh;
+      display: flex; }
     .content-wrapper.relatorio .book-page {
       position: absolute;
       top: 0;
@@ -146,7 +162,8 @@ body {
         font-size: 20px;
         position: relative;
         padding-left: 7rem;
-        padding-right: 12rem; }
+        padding-right: 12rem;
+        color: white; }
         .content-wrapper.relatorio .book-page .citacao:before {
           content: '“';
           top: -70px;
@@ -154,7 +171,7 @@ body {
           font-size: 100px; }
       .content-wrapper.relatorio .book-page p {
         width: 100%;
-        font-size: 12px; }
+        color: #484849; }
         .content-wrapper.relatorio .book-page p:not(.title) {
           padding-left: 7rem;
           margin-bottom: 0; }
@@ -166,6 +183,139 @@ body {
         align-items: center;
         background: white; }
   .content-wrapper .main-container {
-    min-height: 20vh;
+    display: inline-block; }
+    .content-wrapper .main-container p {
+      color: white;
+      font-weight: 400; }
+    .content-wrapper .main-container .btn-wrapper {
+      display: flex;
+      justify-content: center; }
+  .content-wrapper #dale {
+    padding: 30px 0 60px; }
+    .content-wrapper #dale h2 {
+      color: #484849;
+      font-size: 8rem; }
+      .content-wrapper #dale h2 span {
+        color: #E01A27;
+        font-size: 3.5rem; }
+        .content-wrapper #dale h2 span span {
+          color: #484849;
+          margin: 0 5px; }
+    .content-wrapper #dale p {
+      color: #484849;
+      font-weight: 500;
+      letter-spacing: -0.5px; }
+      .content-wrapper #dale p span {
+        color: #0AA5FA; }
+  .content-wrapper #descubra .col-md-4 {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    display: flex; }
+    padding: 30px 15px;
+    flex-direction: column; }
+  .content-wrapper #descubra .section-title {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 26px;
+    font-weight: 400; }
+    .content-wrapper #descubra .section-title span {
+      font-size: 14px;
+      display: block; }
+  .content-wrapper #descubra img {
+    height: 150px;
+    margin-bottom: 15px; }
+  .content-wrapper #descubra p {
+    min-height: 90px; }
+  .content-wrapper #modulos .modulo-box {
+    height: 45vh; }
+    .content-wrapper #modulos .modulo-box:hover#s7bl .inner-wrapper {
+      background-color: #662D37; }
+      .content-wrapper #modulos .modulo-box:hover#s7bl .inner-wrapper .box-title {
+        color: #E01A27; }
+        .content-wrapper #modulos .modulo-box:hover#s7bl .inner-wrapper .box-title:after {
+          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587308/7bl_banner_cor.png); }
+    .content-wrapper #modulos .modulo-box:hover#h2o2h .inner-wrapper {
+      background-color: #6D845E; }
+      .content-wrapper #modulos .modulo-box:hover#h2o2h .inner-wrapper .box-title {
+        color: #6AD325; }
+        .content-wrapper #modulos .modulo-box:hover#h2o2h .inner-wrapper .box-title:after {
+          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587081/h202h_banner_cor.png); }
+    .content-wrapper #modulos .modulo-box:hover#b2b .inner-wrapper {
+      background-color: #898227; }
+      .content-wrapper #modulos .modulo-box:hover#b2b .inner-wrapper .box-title {
+        color: #FAFF10; }
+        .content-wrapper #modulos .modulo-box:hover#b2b .inner-wrapper .box-title:after {
+          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587307/b2b_banner_cor.png); }
+    .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper {
+      background-color: #326875; }
+      .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper .box-title {
+        color: #0AA5FA; }
+        .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper .box-title:after {
+          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587133/brows_banner_cor.png); }
+    .content-wrapper #modulos .modulo-box:hover .inner-wrapper .box-desc {
+      opacity: 1; }
+    .content-wrapper #modulos .modulo-box#s7bl .inner-wrapper {
+      background-color: #F4A4AB; }
+      .content-wrapper #modulos .modulo-box#s7bl .inner-wrapper .box-title {
+        width: 90px;
+        height: 60px; }
+        .content-wrapper #modulos .modulo-box#s7bl .inner-wrapper .box-title:after {
+          width: 90px;
+          height: 60px;
+          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587307/7bl_banner_cinza.png); }
+    .content-wrapper #modulos .modulo-box#h2o2h .inner-wrapper {
+      background-color: #C9F9AA; }
+      .content-wrapper #modulos .modulo-box#h2o2h .inner-wrapper .box-title {
+        width: 160px;
+        height: 55px; }
+        .content-wrapper #modulos .modulo-box#h2o2h .inner-wrapper .box-title:after {
+          width: 160px;
+          height: 55px;
+          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542586926/h202h_banner_cinza.png); }
+    .content-wrapper #modulos .modulo-box#b2b .inner-wrapper {
+      background-color: #E2D571; }
+      .content-wrapper #modulos .modulo-box#b2b .inner-wrapper .box-title {
+        width: 90px;
+        height: 54px; }
+        .content-wrapper #modulos .modulo-box#b2b .inner-wrapper .box-title:after {
+          width: 90px;
+          height: 54px;
+          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587308/b2b_banner_cinza.png); }
+    .content-wrapper #modulos .modulo-box#browns .inner-wrapper {
+      background-color: #C1E6F4; }
+      .content-wrapper #modulos .modulo-box#browns .inner-wrapper .box-title {
+        width: 205px;
+        height: 45px; }
+        .content-wrapper #modulos .modulo-box#browns .inner-wrapper .box-title:after {
+          width: 215px;
+          height: 45px;
+          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542585710/brows_banner_cinza.png); }
+    .content-wrapper #modulos .modulo-box .inner-wrapper {
+      height: 100%;
+      padding: 10px 15px;
+      position: relative;
+      transition: all ease 0.4s; }
+      .content-wrapper #modulos .modulo-box .inner-wrapper .box-title {
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+        width: 130px;
+        height: 80px; }
+        .content-wrapper #modulos .modulo-box .inner-wrapper .box-title:after {
+          width: 130px;
+          height: 70px;
+          top: 0;
+          left: 0;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: right; }
+        .content-wrapper #modulos .modulo-box .inner-wrapper .box-title p {
+          display: none; }
+      .content-wrapper #modulos .modulo-box .inner-wrapper .box-desc {
+        font-family: "Work Sans";
+        color: white;
+        width: 45%;
+        opacity: 0;
+        font-weight: 300; }

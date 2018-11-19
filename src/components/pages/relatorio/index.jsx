@@ -43,16 +43,15 @@ class RelatorioIndex extends Component {
                                     <p>
                                         Com a popularização do estilo musical no Brasil e no mundo, principalmente a partir dos anos 2000, os dados econômicos relacionados ao movimento surpreendem. Segundo dados do site de jornalismo G1, em 2014, mais de 28 milhões de brasileiros disseram ter ouvido algum tipo de música eletrônica. Além disso, a indústria movimentou mais de R$ 3,1 bilhões no país entre shows e comércio relacionado a esse tipo de entretenimento.
                                     </p>
-                                    <p>
-                                        Com essa grande movimentação econômica e o surgimento de grandes nomes brasileiros no meio musical como Alok e Vintage Culture, o Brasil ganha lugar de destaque e atrai grande festivais internacionais do gênero, fazendo com que a receita gerada seja ainda maior do que a apresentada há 4 anos, além de ganhar cada vez mais importância nesse tipo de cenário.
-                                    </p>
 
                                 </div>
                             </Book.Side>
 
                             <Book.Side>
-                                <div className="book-page left green-bg">
-                                    <p>Página Final</p>
+                                <div className="book-page left">
+                                    <p>
+                                        Com essa grande movimentação econômica e o surgimento de grandes nomes brasileiros no meio musical como Alok e Vintage Culture, o Brasil ganha lugar de destaque e atrai grande festivais internacionais do gênero, fazendo com que a receita gerada seja ainda maior do que a apresentada há 4 anos, além de ganhar cada vez mais importância nesse tipo de cenário.
+                                    </p>
                                 </div>
                             </Book.Side>
                         </Book.Page>
