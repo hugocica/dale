@@ -26,7 +26,7 @@ class RelatorioIndex extends Component {
                             </Book.Side>
 
                             <Book.Side>
-                                <div className="book-page left red-bg white-text">
+                                <div className="book-page left red-bg white-text vertical-aligned">
                                     <p className="citacao">Pode-se resumir a música eletrônica como "A música produzida a partir de não-instrumentos, ou de instrumentos adaptados para produzir som modificado pela eletricidade".</p>
                                 </div>
                             </Book.Side>
@@ -79,7 +79,7 @@ class RelatorioIndex extends Component {
 
                                 <p>
                                     A música eletrônica tem seus primórdios com Pierre Schaeffer, na França em 1948 com músicas feitas a partir de ruídos de toca-discos, também chamado na época de “musique concrète”. Porém só se popularizou com o surgimento dos computadores pessoais no início dos anos 90, com a facilitação das produções musicais sem a necessidade da estrutura de um estúdio profissional, mas com resultados se mostrando similares à qualidade dos mesmos. Com isso, muitos produtores musicais e, consequentemente, seus seguidores e ouvintes começaram a surgir e dar corpo ao gênero musical que hoje chamamos de música eletrônica e seu movimento que abarca um público extremamente grande e cada vez maior.
-                                    
+
                                 </p>
                                 <p>
 
