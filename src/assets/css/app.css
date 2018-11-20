@@ -75,7 +75,7 @@ body {
   .content-wrapper .main-header {
     background-color: #484849;
     border-bottom: 1px solid white;
-    height: 15vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     z-index: 1;
@@ -146,7 +146,7 @@ body {
   .content-wrapper.relatorio {
     background-color: #484849; }
     .content-wrapper.relatorio .main-container {
-      height: 68vh;
+      height: 85vh;
       display: flex; }
     .content-wrapper.relatorio .book-page {
       position: absolute;
@@ -158,7 +158,8 @@ body {
       align-items: center;
       width: 100%;
       height: 100%;
-      padding: 30px 40px; }
+      padding: 30px 40px;
+      overflow-y: auto; }
       .content-wrapper.relatorio .book-page.capa {
         justify-content: center; }
       .content-wrapper.relatorio .book-page.left p:not(.title) {
