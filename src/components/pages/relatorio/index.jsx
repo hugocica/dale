@@ -844,7 +844,6 @@ WISNIK, José Miguel. O som e o sentido: Uma outra história das músicas.  São
                                         </p>
 
 
-
                                     </div>
                                 </Book.Side>
 
