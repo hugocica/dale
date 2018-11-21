@@ -738,12 +738,11 @@ Com todos o componentes comprados e soldados, peças impressas, cortadas e colad
                                 </Book.Side>
                             </Book.Page>
 
+
                             <Book.Page>
                                 <Book.Side>
                                     <div className="book-page right">
-                                    <p className="subtitle"><strong>3. Considerações finais</strong></p>
-
-                                        </p>
+                                        <p className="subtitle"><strong>3. Considerações finais</strong></p>
 
                                     </div>
                                 </Book.Side>
@@ -755,10 +754,11 @@ Com todos o componentes comprados e soldados, peças impressas, cortadas e colad
                                 </Book.Side>
                             </Book.Page>
 
-
+        
                             <Book.Page>
                                 <Book.Side>
                                     <div className="book-page right">
+
 
                                         <p>
                                         O projeto DALE tem a intenção de se tornar um projeto colaborativo, ou seja, ele não acaba por aqui. Minha pretensão com os downloads livres do projeto são muitas: disseminar o conhecimento apreendido às pessoas interessadas em aprender os mesmos assuntos; dar a oportunidade de outras pessoas fazerem suas próprias controladoras seguindo minha “receitinha”, se assim for da vontade delas; dar também a oportunidade de alterarem meu projeto, melhorando-o e adaptando-o a qualquer outro tipo de uso, seja envolvido com música ou não e até mesmo desenvolver projetos ainda maiores a partir deste.
