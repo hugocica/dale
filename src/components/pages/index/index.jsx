@@ -28,7 +28,22 @@ class IndexPage extends Component {
                         </section>
 
                         <section id="descricao">
-                            <div className="container"></div>
+                            <div className="container">
+                                <div className="col-md-4">
+                                    <p>Depois de um ano e meio pensando em algo que me deixasse realmente satisfeito e me desse a sensação de que um ciclo havia acabado, eu lhes apresento o meu projeto de conclusão de curso.</p>
+                                    <p>Fazer música é algo que sempre me empolgou, mas como de costume, muitas coisas me empolgam e eu não as faço.</p>
+                                    <p>Porque, então, não unir uma obrigação à algo que eu sempre quis fazer? Foi então que, tentando unir assuntos que eu não havia aprendido durante todo o decorrer</p>
+                                </div>
+                                <div className="col-md-4">
+                                    <p>da graduação (que eu achava realmente interessante, ou que simplesmente me pudesse deixar feliz), que surgiu este TCC. Programação, Música, Movimento Maker e DIY. O meu projeto é sobre tudo isso, mas também não é. Ele é especificamente sobre uma controladora de discotecagem, o lapso de uma ideia que me surgiu em meio à um momento de diversão com nada mais, nada menos do que a Música.</p>
+                                    <p>Além de tudo isso, este projeto também</p>
+                                </div>
+                                <div className="col-md-4">
+                                    <p>se trata de abrir um campo ainda maior à quem busca se divertir com música, mas da maneira como quiser, seja fazendo música ou fazendo os instrumentos que o façam. A intenção deste projeto é fazer com que quem se interesse, faça, à sua maneira, uma controladora como essa, algo menor ou ainda algo maior do que este projeto. A decisão é sua.</p>
+                                    <br />
+                                    <p>Seja bem vindo ao DALE</p>
+                                </div>
+                            </div>
                         </section>
 
                         <section id="dale" className="light-bg col-md-12">

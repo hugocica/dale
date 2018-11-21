@@ -25,6 +25,9 @@ class Menu extends Component {
                                 <li>
                                     <Link to="/relatorio">Projeto</Link>
                                 </li>
+                                <li>
+                                    <Link to="/criador">Criador</Link>
+                                </li>
                             </ul>
                         }
                     />
