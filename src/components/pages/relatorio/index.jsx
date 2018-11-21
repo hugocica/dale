@@ -741,7 +741,25 @@ Com todos o componentes comprados e soldados, peças impressas, cortadas e colad
                             <Book.Page>
                                 <Book.Side>
                                     <div className="book-page right">
-                                        <p className="subtitle"><strong>3. Considerações finais</strong></p>
+                                    <p className="subtitle"><strong>3. Considerações finais</strong></p>
+
+                                        </p>
+
+                                    </div>
+                                </Book.Side>
+
+                                <Book.Side>
+                                    <div className="book-page left">
+
+                                    </div>
+                                </Book.Side>
+                            </Book.Page>
+
+
+                            <Book.Page>
+                                <Book.Side>
+                                    <div className="book-page right">
+
                                         <p>
                                         O projeto DALE tem a intenção de se tornar um projeto colaborativo, ou seja, ele não acaba por aqui. Minha pretensão com os downloads livres do projeto são muitas: disseminar o conhecimento apreendido às pessoas interessadas em aprender os mesmos assuntos; dar a oportunidade de outras pessoas fazerem suas próprias controladoras seguindo minha “receitinha”, se assim for da vontade delas; dar também a oportunidade de alterarem meu projeto, melhorando-o e adaptando-o a qualquer outro tipo de uso, seja envolvido com música ou não e até mesmo desenvolver projetos ainda maiores a partir deste.
                                         </p>
@@ -794,7 +812,23 @@ Quanto ao objetivo citado no início do projeto sobre fazer as pessoas felizes: 
                             <Book.Page>
                                 <Book.Side>
                                     <div className="book-page right">
-                                        <p className="subtitle"><strong>4.Agradecimentos</strong></p>
+                                    <p className="subtitle"><strong>4.Agradecimentos</strong></p>
+
+
+                                    </div>
+                                </Book.Side>
+
+                                <Book.Side>
+                                    <div className="book-page left">
+
+                                    </div>
+                                </Book.Side>
+                            </Book.Page>
+
+                            <Book.Page>
+                                <Book.Side>
+                                    <div className="book-page right">
+
                                         <p>
 Gostaria de antemão, já deixar registrado aqui que estes agradecimentos são muito extensos pelo seguinte motivo: eu não moveria uma agulha sem a ajuda de todas essas pessoas, que foram e são peças essenciais durante toda a minha jornada neste ano. Apesar dessa grande quantidade de agradecimentos parecer impessoal, ela é de coração.
                                         </p>
@@ -872,7 +906,22 @@ Obrigado, Bauru. Obrigado Unesp, por me proporcionar os MELHORES ANOS da minha v
                             <Book.Page>
                                 <Book.Side>
                                     <div className="book-page right">
-                                        <p className="subtitle"><strong>5. Bilbiografia</strong></p>
+                                    <p className="subtitle"><strong>5. Bilbiografia</strong></p>
+
+                                    </div>
+                                </Book.Side>
+
+                                <Book.Side>
+                                    <div className="book-page left">
+
+                                    </div>
+                                </Book.Side>
+                            </Book.Page>
+
+                            <Book.Page>
+                                <Book.Side>
+                                    <div className="book-page right">
+
                                         <p>
 CARDOSO, Rafael. Design para um mundo complexo. São Paulo: Cosac Naify, 2012.
                                         </p>
@@ -925,6 +974,21 @@ WISNIK, José Miguel. O som e o sentido: Uma outra história das músicas.  São
                                 <Book.Side>
                                     <div className="book-page right">
                                         <p className="subtitle"><strong>6. Discografia Inspiradora</strong></p>
+
+                                    </div>
+                                </Book.Side>
+
+                                <Book.Side>
+                                    <div className="book-page left">
+
+                                    </div>
+                                </Book.Side>
+                            </Book.Page>
+
+                            <Book.Page>
+                                <Book.Side>
+                                    <div className="book-page right">
+
                                         <p>
                                     <a target="_blank" href="https://open.spotify.com/album/2Kwbn1H4KMGZAe4MS6uDzU?si=hw9AojAmSAKuZBFUr1D2lQ">Eric Prydz – Opus Álbum</a>
                                         </p>
