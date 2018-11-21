@@ -28,6 +28,7 @@ class RelatorioIndex extends Component {
 
                             <Book.Side>
 
+
                             </Book.Side>
                         </Book.Page>
 
@@ -37,11 +38,14 @@ class RelatorioIndex extends Component {
                                     <p className="subtitle"><strong>1. A importância de alguns assuntos</strong></p>
 
 
+
+
+
                                 </div>
                             </Book.Side>
 
                             <Book.Side>
-                            <div className="book-page left red-bg white-text">
+                            <div className="book-page left red-bg white-text vertical-aligned">
                                 <p className="citacao">Pode-se resumir a música eletrônica como "A música produzida a partir de não-instrumentos, ou de instrumentos adaptados para produzir som modificado pela eletricidade".</p>
                             </div>
                             </Book.Side>
@@ -237,6 +241,9 @@ Numa análise rápida de mercado, podemos encontrar controladoras com preços de
                                 <p className="subtitle"><strong> Objetivos pessoais </strong></p>
                                 <p>
 Eu fiz questão de escrever esse tópico pelo fato de demonstrar o meu verdadeiro interesse em realizar este projeto.
+                                </p>
+                                <p>
+A música eletrônica tem seus primórdios com Pierre Schaeffer, na França em 1948 com músicas feitas a partir de ruídos de toca-discos, também chamado na época de “musique concrète”. Porém só se popularizou com o surgimento dos computadores pessoais no início dos anos 90, com a facilitação das produções musicais sem a necessidade da estrutura de um estúdio profissional, mas com resultados se mostrando similares à qualidade dos mesmos. Com isso, muitos produtores musicais e, consequentemente, seus seguidores e ouvintes começaram a surgir e dar corpo ao gênero musical que hoje chamamos de música eletrônica e seu movimento que abarca um público extremamente grande e cada vez maior.
                                 </p>
                                 <p>
 Por toda a minha graduação eu nunca havia sido sequer inserido à alguns assuntos que  julgava extremamente importantes, como a programação, por exemplo. Por outro lado, em outros assuntos, fui inspirado e tocado, mas não tive tempo (ou interesse de verdade) de me aprofundar, como entender e vivenciar a cultura Maker e o DIY. Outros eu sempre tive grande interesse, mas nunca me desafiei a fazê-los, como aprender música e/ou qualquer instrumento. Este último interesse nunca foi culpa da graduação, confesso.
