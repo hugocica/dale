@@ -222,22 +222,35 @@ body {
             }
             &.left {
                 p {
-                    &:not(.title) {
+                    &:not(.subtitle) {
                         padding-right: 7rem;
                         margin-bottom: 0;
+                    }
+                    &.title {
+                        padding-right: 0;
                     }
                 }
             }
             &.right {
                 p {
-                    &:not(.title) {
+                    &:not(.subtitle) {
                         padding-left: 7rem;
                         margin-bottom: 0;
+                    }
+                    &.title {
+                        padding-left: 0;
                     }
                 }
             }
             &.vertical-aligned {
                 justify-content: center;
+            }
+            .firulinha {
+                position: absolute;
+                left: 0;
+                bottom: 20px;
+                width: 100%;
+                color: inherit;
             }
             .citacao {
                 font-size: 20px;
@@ -252,6 +265,26 @@ body {
                     top: -70px;
                     left: 6.5rem;
                     font-size: 100px;
+                }
+                &+ p {
+                    color: white;
+                }
+            }
+            .title {
+                font-size: 3rem;
+                display: flex;
+                padding-left: 0;
+                padding-right: 0;
+                align-items: flex-end;
+                color: inherit;
+                line-height: 4rem;
+                max-width: 90%;
+                font-weight: 700;
+
+                span {
+                    font-size: 30rem;
+                    line-height: 22rem;
+                    font-weight: 500;
                 }
             }
             p {

@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import Input from '@material-ui/core/Input';
 import Book from 'react-page-flip'
 import LogoFooter from '../../../assets/img/dale_logo.svg';
+import Firulinha from './firulinha';
 
 class RelatorioIndex extends Component {
     constructor(props) {
@@ -27,17 +28,18 @@ class RelatorioIndex extends Component {
                             </Book.Side>
 
                             <Book.Side>
-
-
+                                <div className="book-page right red-text dark-bg">
+                                    <Firulinha classe="firulinha" />
+                                </div>
                             </Book.Side>
                         </Book.Page>
 
                         <Book.Page>
                             <Book.Side>
-                                <div className="book-page right">
-                                    <p className="subtitle"><strong>1. A importância de alguns assuntos</strong></p>
+                                <div className="book-page right red-text vertical-aligned dark-bg">
+                                    <p className="title"><span>1</span> A importância de alguns assuntos</p>
 
-
+                                    <Firulinha classe="firulinha" />
                                 </div>
                             </Book.Side>
 
@@ -94,10 +96,10 @@ class RelatorioIndex extends Component {
                             </Book.Side>
 
                             <Book.Side>
-                            <div className="book-page left red-bg white text">
+                            <div className="book-page left red-bg white text vertical-aligned">
                             <p className="citacao"> Toda vez que olhamos para um artefato, associamos a ele uma série de valores e juízos ligados à nossa história, individual e coletiva. Nas raras ocasiões em que deparamos com uma aparência inovadora - algo imprevisto, sem maiores referências na memória - o mais comum é rejeitá-la. O novo é quase sempre aterrorizante, precisamente porque nele carece das camadas de familiaridade com que a memória acolchoa nossa relação com o mundo externo. Sendo as aparências dos objetos carregadas de significados, isso quer dizer que todo artefato material é também comunicação, informação, signo. [...] Ou seja: todo artefato material possui também uma dimensão imaterial, de informação.</p>
 
-                            <p>
+                            <p className="white-text">
                             CARDOSO, Rafael. Design para um mundo complexo.
                             </p>
 
@@ -138,15 +140,18 @@ class RelatorioIndex extends Component {
                             </Book.Side>
 
                             <Book.Side>
-
+                                <div className="book-page left dark-bg yellow-text">
+                                    <Firulinha classe="firulinha" />
+                                </div>
                             </Book.Side>
                         </Book.Page>
 
                         <Book.Page>
                             <Book.Side>
-                                <div className="book-page right">
-                                    <p className="subtitle"><strong>2. O projeto</strong></p>
+                                <div className="book-page right vertical-aligned dark-bg yellow-text">
+                                        <p className="title"><span>2</span> O projeto</p>
 
+                                        <Firulinha classe="firulinha" />
                                 </div>
                             </Book.Side>
 
@@ -732,8 +737,8 @@ Com todos o componentes comprados e soldados, peças impressas, cortadas e colad
                                 </Book.Side>
 
                                 <Book.Side>
-                                    <div className="book-page left">
-
+                                    <div className="book-page left dark-bg green-text">
+                                        <Firulinha classe="firulinha" />
                                     </div>
                                 </Book.Side>
                             </Book.Page>
@@ -741,9 +746,10 @@ Com todos o componentes comprados e soldados, peças impressas, cortadas e colad
 
                             <Book.Page>
                                 <Book.Side>
-                                    <div className="book-page right">
-                                        <p className="subtitle"><strong>3. Considerações finais</strong></p>
+                                    <div className="book-page right vertical-aligned dark-bg green-text">
+                                        <p className="title"><span>3</span> Considerações finais</p>
 
+                                        <Firulinha classe="firulinha" />
                                     </div>
                                 </Book.Side>
 
@@ -754,7 +760,7 @@ Com todos o componentes comprados e soldados, peças impressas, cortadas e colad
                                 </Book.Side>
                             </Book.Page>
 
-        
+
                             <Book.Page>
                                 <Book.Side>
                                     <div className="book-page right">
@@ -803,18 +809,18 @@ Quanto ao objetivo citado no início do projeto sobre fazer as pessoas felizes: 
                                 </Book.Side>
 
                                 <Book.Side>
-                                    <div className="book-page left">
-
+                                    <div className="book-page left dark-bg blue-text">
+                                        <Firulinha classe="firulinha" />
                                     </div>
                                 </Book.Side>
                             </Book.Page>
 
                             <Book.Page>
                                 <Book.Side>
-                                    <div className="book-page right">
-                                    <p className="subtitle"><strong>4.Agradecimentos</strong></p>
+                                    <div className="book-page right vertical-aligned dark-bg blue-text">
+                                        <p className="title"><span>4</span> Agradecimentos</p>
 
-
+                                        <Firulinha classe="firulinha" />
                                     </div>
                                 </Book.Side>
 
@@ -897,17 +903,18 @@ Obrigado, Bauru. Obrigado Unesp, por me proporcionar os MELHORES ANOS da minha v
                                 </Book.Side>
 
                                 <Book.Side>
-                                    <div className="book-page left">
-
+                                    <div className="book-page left dark-bg red-text">
+                                        <Firulinha classe="firulinha" />
                                     </div>
                                 </Book.Side>
                             </Book.Page>
 
                             <Book.Page>
                                 <Book.Side>
-                                    <div className="book-page right">
-                                    <p className="subtitle"><strong>5. Bilbiografia</strong></p>
+                                    <div className="book-page right vertical-aligned dark-bg red-text">
+                                        <p className="title"><span>5</span> Bilbiografia</p>
 
+                                        <Firulinha classe="firulinha" />
                                     </div>
                                 </Book.Side>
 
@@ -964,17 +971,18 @@ WISNIK, José Miguel. O som e o sentido: Uma outra história das músicas.  São
                                 </Book.Side>
 
                                 <Book.Side>
-                                    <div className="book-page left">
-
+                                    <div className="book-page left vertical-aligned dark-bg yellow-text">
+                                        <Firulinha classe="firulinha" />
                                     </div>
                                 </Book.Side>
                             </Book.Page>
 
                             <Book.Page>
                                 <Book.Side>
-                                    <div className="book-page right">
-                                        <p className="subtitle"><strong>6. Discografia Inspiradora</strong></p>
+                                    <div className="book-page right vertical-aligned dark-bg yellow-text">
+                                        <p className="title"><span>6</span> Discografia Inspiradora</p>
 
+                                        <Firulinha classe="firulinha" />
                                     </div>
                                 </Book.Side>
 

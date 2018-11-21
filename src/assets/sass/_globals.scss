@@ -18,6 +18,19 @@
     display: none !important;
 }
 
+// classe do svg
+.cls-1,.cls-3 {
+    fill:none;
+}
+.cls-2 {
+    clip-path: url(#clip-path);
+}
+.cls-3{
+    stroke: currentColor;
+    stroke-miterlimit:10;
+}
+
+// classes para pintar o fundo com as cores padrão
 .red-bg {
     background-color: $dale-red;
 }
@@ -36,8 +49,22 @@
 .light-bg {
     background-color: $dale-lightgray;
 }
+
+// pintar o texto
 .white-text {
     color: white;
+}
+.red-text {
+    color: $dale-red;
+}
+.yellow-text {
+    color: $dale-yellow;
+}
+.green-text {
+    color: $dale-green;
+}
+.blue-text {
+    color: $dale-blue;
 }
 
 @mixin linearGradient($top, $bottom){

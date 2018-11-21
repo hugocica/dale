@@ -14,6 +14,16 @@
 .hidden {
   display: none !important; }
 
+.cls-1, .cls-3 {
+  fill: none; }
+
+.cls-2 {
+  clip-path: url(#clip-path); }
+
+.cls-3 {
+  stroke: currentColor;
+  stroke-miterlimit: 10; }
+
 .red-bg {
   background-color: #E01A27; }
 
@@ -34,6 +44,18 @@
 
 .white-text {
   color: white; }
+
+.red-text {
+  color: #E01A27; }
+
+.yellow-text {
+  color: #FAFF10; }
+
+.green-text {
+  color: #6AD325; }
+
+.blue-text {
+  color: #0AA5FA; }
 
 body {
   margin: 0;
@@ -189,14 +211,24 @@ body {
       overflow-y: auto; }
       .content-wrapper.relatorio .book-page.capa {
         justify-content: center; }
-      .content-wrapper.relatorio .book-page.left p:not(.title) {
+      .content-wrapper.relatorio .book-page.left p:not(.subtitle) {
         padding-right: 7rem;
         margin-bottom: 0; }
-      .content-wrapper.relatorio .book-page.right p:not(.title) {
+      .content-wrapper.relatorio .book-page.left p.title {
+        padding-right: 0; }
+      .content-wrapper.relatorio .book-page.right p:not(.subtitle) {
         padding-left: 7rem;
         margin-bottom: 0; }
+      .content-wrapper.relatorio .book-page.right p.title {
+        padding-left: 0; }
       .content-wrapper.relatorio .book-page.vertical-aligned {
         justify-content: center; }
+      .content-wrapper.relatorio .book-page .firulinha {
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+        width: 100%;
+        color: inherit; }
       .content-wrapper.relatorio .book-page .citacao {
         font-size: 20px;
         position: relative;
@@ -208,6 +240,22 @@ body {
           top: -70px;
           left: 6.5rem;
           font-size: 100px; }
+        .content-wrapper.relatorio .book-page .citacao + p {
+          color: white; }
+      .content-wrapper.relatorio .book-page .title {
+        font-size: 3rem;
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+        align-items: flex-end;
+        color: inherit;
+        line-height: 4rem;
+        max-width: 90%;
+        font-weight: 700; }
+        .content-wrapper.relatorio .book-page .title span {
+          font-size: 30rem;
+          line-height: 22rem;
+          font-weight: 500; }
       .content-wrapper.relatorio .book-page p {
         width: 100%;
         color: #484849; }
