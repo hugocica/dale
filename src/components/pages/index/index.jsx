@@ -19,7 +19,6 @@ class IndexPage extends Component {
                 <Menu />
 
                 <div className="main-container">
-                    <section className="slider-wrapper" style={{ height: '65vh', backgroundColor: '#E11A27' }}></section>
                     <div className="main-container">
 
                         <section id="slider" className="reg-bg col-md-12">
@@ -27,7 +26,7 @@ class IndexPage extends Component {
                             </div>
                         </section>
 
-                        <section id="descricao">
+                        <section id="descricao" className="col-md-12">
                             <div className="container">
                                 <div className="col-md-4">
                                     <p>Depois de um ano e meio pensando em algo que me deixasse realmente satisfeito e me desse a sensação de que um ciclo havia acabado, eu lhes apresento o meu projeto de conclusão de curso.</p>
@@ -94,6 +93,9 @@ class IndexPage extends Component {
                                     <div className="inner-wrapper">
                                         <div className="box-title"><p><span>7</span>BL</p></div>
                                         <div className="box-desc">Deixe a próxima track no ponto exato pra festa nunca parar.</div>
+                                        <div className="img-wrapper">
+                                            <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251626/jog.png" alt="7bl jog modelo"/>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -101,6 +103,9 @@ class IndexPage extends Component {
                                     <div className="inner-wrapper">
                                         <div className="box-title"><p>H<span>2</span>O<span className="inverse">2</span>H</p></div>
                                         <div className="box-desc">Simplifique a maneira de discotecar à sua maneira.</div>
+                                        <div className="img-wrapper">
+                                            <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251631/h2o2.png" alt="h2o2h dale modelo"/>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -108,6 +113,9 @@ class IndexPage extends Component {
                                     <div className="inner-wrapper">
                                         <div className="box-title"><p>B<span>2</span>B</p></div>
                                         <div className="box-desc">Discoteque em duplas ou se apresente em shows híbridos... ou os dois!</div>
+                                        <div className="img-wrapper">
+                                            <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251625/pad.png" alt="b2b pad dale"/>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -115,6 +123,9 @@ class IndexPage extends Component {
                                     <div className="inner-wrapper">
                                         <div className="box-title"><p>BROWS</p></div>
                                         <div className="box-desc">Encontre pastas e músicas em meio à bagunça.</div>
+                                        <div className="img-wrapper">
+                                            <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251623/brows.png" alt="browns modelo 3d"/>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

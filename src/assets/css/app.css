@@ -280,6 +280,14 @@ body {
     .content-wrapper .main-container .btn-wrapper {
       display: flex;
       justify-content: center; }
+  .content-wrapper #slider {
+    background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543253449/6_00022.png);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .content-wrapper #descricao {
+    padding: 60px 0; }
   .content-wrapper #dale {
     padding: 30px 0 60px; }
     .content-wrapper #dale h2 {
@@ -318,94 +326,106 @@ body {
     margin-bottom: 15px; }
   .content-wrapper #descubra p {
     min-height: 90px; }
-  .content-wrapper #modulos .modulo-box {
-    height: 45vh; }
-    .content-wrapper #modulos .modulo-box:hover#s7bl .inner-wrapper {
-      background-color: #662D37; }
-      .content-wrapper #modulos .modulo-box:hover#s7bl .inner-wrapper .box-title {
-        color: #E01A27; }
-        .content-wrapper #modulos .modulo-box:hover#s7bl .inner-wrapper .box-title:after {
-          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587308/7bl_banner_cor.png); }
-    .content-wrapper #modulos .modulo-box:hover#h2o2h .inner-wrapper {
-      background-color: #6D845E; }
-      .content-wrapper #modulos .modulo-box:hover#h2o2h .inner-wrapper .box-title {
-        color: #6AD325; }
-        .content-wrapper #modulos .modulo-box:hover#h2o2h .inner-wrapper .box-title:after {
-          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587081/h202h_banner_cor.png); }
-    .content-wrapper #modulos .modulo-box:hover#b2b .inner-wrapper {
-      background-color: #898227; }
-      .content-wrapper #modulos .modulo-box:hover#b2b .inner-wrapper .box-title {
-        color: #FAFF10; }
-        .content-wrapper #modulos .modulo-box:hover#b2b .inner-wrapper .box-title:after {
-          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587307/b2b_banner_cor.png); }
-    .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper {
-      background-color: #326875; }
-      .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper .box-title {
-        color: #0AA5FA; }
-        .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper .box-title:after {
-          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587133/brows_banner_cor.png); }
-    .content-wrapper #modulos .modulo-box:hover .inner-wrapper .box-desc {
-      opacity: 1; }
-    .content-wrapper #modulos .modulo-box#s7bl .inner-wrapper {
-      background-color: #F4A4AB; }
-      .content-wrapper #modulos .modulo-box#s7bl .inner-wrapper .box-title {
-        width: 90px;
-        height: 60px; }
-        .content-wrapper #modulos .modulo-box#s7bl .inner-wrapper .box-title:after {
+  .content-wrapper #modulos {
+    margin-bottom: 30px; }
+    .content-wrapper #modulos .modulo-box {
+      height: 430px; }
+      .content-wrapper #modulos .modulo-box:hover#s7bl .inner-wrapper {
+        background-color: #662D37; }
+        .content-wrapper #modulos .modulo-box:hover#s7bl .inner-wrapper .box-title {
+          color: #E01A27; }
+          .content-wrapper #modulos .modulo-box:hover#s7bl .inner-wrapper .box-title:after {
+            background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587308/7bl_banner_cor.png); }
+      .content-wrapper #modulos .modulo-box:hover#h2o2h .inner-wrapper {
+        background-color: #6D845E; }
+        .content-wrapper #modulos .modulo-box:hover#h2o2h .inner-wrapper .box-title {
+          color: #6AD325; }
+          .content-wrapper #modulos .modulo-box:hover#h2o2h .inner-wrapper .box-title:after {
+            background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587081/h202h_banner_cor.png); }
+      .content-wrapper #modulos .modulo-box:hover#b2b .inner-wrapper {
+        background-color: #898227; }
+        .content-wrapper #modulos .modulo-box:hover#b2b .inner-wrapper .box-title {
+          color: #FAFF10; }
+          .content-wrapper #modulos .modulo-box:hover#b2b .inner-wrapper .box-title:after {
+            background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587307/b2b_banner_cor.png); }
+      .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper {
+        background-color: #326875; }
+        .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper .box-title {
+          color: #0AA5FA; }
+          .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper .box-title:after {
+            background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587133/brows_banner_cor.png); }
+      .content-wrapper #modulos .modulo-box:hover .inner-wrapper .box-desc {
+        opacity: 1; }
+      .content-wrapper #modulos .modulo-box#s7bl .inner-wrapper {
+        background-color: #F4A4AB; }
+        .content-wrapper #modulos .modulo-box#s7bl .inner-wrapper .box-title {
           width: 90px;
-          height: 60px;
-          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587307/7bl_banner_cinza.png); }
-    .content-wrapper #modulos .modulo-box#h2o2h .inner-wrapper {
-      background-color: #C9F9AA; }
-      .content-wrapper #modulos .modulo-box#h2o2h .inner-wrapper .box-title {
-        width: 160px;
-        height: 55px; }
-        .content-wrapper #modulos .modulo-box#h2o2h .inner-wrapper .box-title:after {
+          height: 60px; }
+          .content-wrapper #modulos .modulo-box#s7bl .inner-wrapper .box-title:after {
+            width: 90px;
+            height: 60px;
+            background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587307/7bl_banner_cinza.png); }
+      .content-wrapper #modulos .modulo-box#h2o2h .inner-wrapper {
+        background-color: #C9F9AA; }
+        .content-wrapper #modulos .modulo-box#h2o2h .inner-wrapper .box-title {
           width: 160px;
-          height: 55px;
-          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542586926/h202h_banner_cinza.png); }
-    .content-wrapper #modulos .modulo-box#b2b .inner-wrapper {
-      background-color: #E2D571; }
-      .content-wrapper #modulos .modulo-box#b2b .inner-wrapper .box-title {
-        width: 90px;
-        height: 54px; }
-        .content-wrapper #modulos .modulo-box#b2b .inner-wrapper .box-title:after {
+          height: 55px; }
+          .content-wrapper #modulos .modulo-box#h2o2h .inner-wrapper .box-title:after {
+            width: 160px;
+            height: 55px;
+            background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542586926/h202h_banner_cinza.png); }
+      .content-wrapper #modulos .modulo-box#b2b .inner-wrapper {
+        background-color: #E2D571; }
+        .content-wrapper #modulos .modulo-box#b2b .inner-wrapper .box-title {
           width: 90px;
-          height: 54px;
-          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587308/b2b_banner_cinza.png); }
-    .content-wrapper #modulos .modulo-box#browns .inner-wrapper {
-      background-color: #C1E6F4; }
-      .content-wrapper #modulos .modulo-box#browns .inner-wrapper .box-title {
-        width: 205px;
-        height: 45px; }
-        .content-wrapper #modulos .modulo-box#browns .inner-wrapper .box-title:after {
-          width: 215px;
-          height: 45px;
-          background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542585710/brows_banner_cinza.png); }
-    .content-wrapper #modulos .modulo-box .inner-wrapper {
-      height: 100%;
-      padding: 10px 15px;
-      position: relative;
-      transition: all ease 0.4s; }
-      .content-wrapper #modulos .modulo-box .inner-wrapper .box-title {
-        position: absolute;
-        bottom: 10px;
-        right: 15px;
-        width: 130px;
-        height: 80px; }
-        .content-wrapper #modulos .modulo-box .inner-wrapper .box-title:after {
+          height: 54px; }
+          .content-wrapper #modulos .modulo-box#b2b .inner-wrapper .box-title:after {
+            width: 90px;
+            height: 54px;
+            background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587308/b2b_banner_cinza.png); }
+      .content-wrapper #modulos .modulo-box#browns .inner-wrapper {
+        background-color: #C1E6F4; }
+        .content-wrapper #modulos .modulo-box#browns .inner-wrapper .box-title {
+          width: 205px;
+          height: 45px; }
+          .content-wrapper #modulos .modulo-box#browns .inner-wrapper .box-title:after {
+            width: 215px;
+            height: 45px;
+            background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542585710/brows_banner_cinza.png); }
+      .content-wrapper #modulos .modulo-box .inner-wrapper {
+        height: 100%;
+        padding: 10px 15px;
+        position: relative;
+        transition: all ease 0.4s;
+        overflow: hidden; }
+        .content-wrapper #modulos .modulo-box .inner-wrapper .img-wrapper {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: -100px;
+          z-index: 0; }
+          .content-wrapper #modulos .modulo-box .inner-wrapper .img-wrapper img {
+            transform: rotate(-45deg);
+            width: 420px; }
+        .content-wrapper #modulos .modulo-box .inner-wrapper .box-title {
+          position: absolute;
+          bottom: 10px;
+          right: 15px;
           width: 130px;
-          height: 70px;
-          top: 0;
-          left: 0;
-          background-size: contain;
-          background-repeat: no-repeat;
-          background-position: right; }
-        .content-wrapper #modulos .modulo-box .inner-wrapper .box-title p {
-          display: none; }
-      .content-wrapper #modulos .modulo-box .inner-wrapper .box-desc {
-        font-family: "Work Sans";
-        color: white;
-        width: 45%;
-        opacity: 0;
-        font-weight: 300; }
+          height: 80px; }
+          .content-wrapper #modulos .modulo-box .inner-wrapper .box-title:after {
+            width: 130px;
+            height: 70px;
+            top: 0;
+            left: 0;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right; }
+          .content-wrapper #modulos .modulo-box .inner-wrapper .box-title p {
+            display: none; }
+        .content-wrapper #modulos .modulo-box .inner-wrapper .box-desc {
+          font-family: "Work Sans";
+          color: white;
+          width: 45%;
+          opacity: 0;
+          font-weight: 300; }
