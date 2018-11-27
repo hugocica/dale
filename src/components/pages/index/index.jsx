@@ -7,6 +7,7 @@ import Input from '@material-ui/core/Input';
 import MapeieIcon from '../../../assets/img/mapeie.svg';
 import OrganizeIcon from '../../../assets/img/organize.svg';
 import FacaIcon from '../../../assets/img/faca.svg';
+import BannerVideo from '../../../assets/videos/dale-banner.mp4';
 
 class IndexPage extends Component {
     constructor(props) {
@@ -22,8 +23,7 @@ class IndexPage extends Component {
                     <div className="main-container">
 
                         <section id="slider" className="reg-bg col-md-12">
-                            <div className="container">
-                            </div>
+                            <video autoPlay loop src={BannerVideo}></video>
                         </section>
 
                         <section id="descricao" className="col-md-12">

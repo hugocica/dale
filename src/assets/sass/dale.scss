@@ -58,6 +58,7 @@ body {
         z-index: 1;
         width: 100%;
         padding: 15px 0;
+        // position: relative;
 
         @include phone {
             height: auto;
@@ -65,6 +66,7 @@ body {
         .container {
             display: flex;
             align-items: center;
+            height: 100%;
 
             > a {
                 width: 15%;
@@ -75,6 +77,10 @@ body {
         }
         .logo-icon {
             height: 60px;
+
+            @include desktop-1366 {
+                height: 50px;
+            }
         }
         .large-menu-classname {
             display: flex;
@@ -334,11 +340,18 @@ body {
         }
     }
     #slider {
-        background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543253449/6_00022.png);
         height: 70vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+
+        video {
+            position: relative;
+            width: calc(100% + 30px);
+            height: auto;
+            left: -15px;
+        }
     }
     #descricao {
         padding: 60px 0;
