@@ -23,7 +23,9 @@ class IndexPage extends Component {
                     <div className="main-container">
 
                         <section id="slider" className="reg-bg col-md-12">
-                            <video autoPlay loop src={BannerVideo}></video>
+                            <video autoPlay loop autobuffer>
+                            <source src={BannerVideo} type="video/mp4" />
+                            </video>
                         </section>
 
                         <section id="descricao" className="col-md-12">
