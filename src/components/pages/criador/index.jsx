@@ -3,6 +3,7 @@ import Menu from '../../menu';
 import Footer from '../../footer';
 import {Link} from 'react-router-dom';
 import CreepySmile from '../../../assets/img/smile.svg';
+import CriadorFrito from '../../../assets/img/caina_frito.png';
 
 class CriadorIndex extends Component {
     constructor(props) {
@@ -29,7 +30,7 @@ class CriadorIndex extends Component {
 
                     <section id="about" className="container">
                         <div className="col-md-6 criador-pic">
-
+                            <img src={CriadorFrito} alt="caina guari criador dale"/>
                         </div>
 
                         <div className="col-md-6 criador-info">
@@ -39,8 +40,20 @@ class CriadorIndex extends Component {
                         </div>
                     </section>
 
+                    { /* <section id="download" className="container">
+                        <div className="col-md-6">
+
+                        </div>
+
+                        <div className="col-md-6">
+                            <p>Se você baixou o conteúdo do DALE e desenvolveu alguma coisa do projeto, mesmo que seja igual ao meu, compartilhe comigo para que as pessoas possam vê-lo. A ideia é somar e formar uma comunidade interessada no assunto</p>
+                        </div>
+                    </section> */ }
+
                     <section id="creepy-smile" className="container">
-                        <img src={CreepySmile} alt=""/>
+                        <div className="img-wrapper">
+                            <img src={CreepySmile} alt=""/>
+                        </div>
                     </section>
 
                 </div>

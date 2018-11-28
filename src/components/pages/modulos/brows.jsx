@@ -3,27 +3,27 @@ import Menu from '../../menu';
 import Footer from '../../footer';
 import DaleBtn from '../../dale-button';
 import { Link } from 'react-router-dom';
-import ImgTecnica from '../../../assets/img/modulos/h2o_tecnico.svg'
+import ImgTecnica from '../../../assets/img/modulos/brows_tecnico.svg'
 
-class ModuloH2o2h extends Component {
+class ModuloBrows extends Component {
     constructor(props) {
         super(props);
     }
 
     render() {
         return (
-            <div className="content-wrapper inner-modulo-page h2o2h-page">
+            <div className="content-wrapper inner-modulo-page brows-page">
                 <Menu />
 
                 <div className="main-container">
 
-                    <div className="modulo-banner green-bg">
+                    <div className="modulo-banner blue-bg">
                         <div className="container">
                             <div className="col-md-12">
-                                <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542586926/h202h_banner_cinza.png" alt="h2o2h logo"/>
+                                <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587308/brows_banner_cinza.png" alt="brows logo"/>
                             </div>
 
-                            <img className="modulo-modelo" src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251631/h2o2.png" alt="h2o2h modelo"/>
+                            <img className="modulo-modelo" src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251623/brows.png" alt="brows modelo"/>
                         </div>
 
                     </div>
@@ -83,4 +83,4 @@ class ModuloH2o2h extends Component {
     }
 }
 
-export default ModuloH2o2h;
+export default ModuloBrows;

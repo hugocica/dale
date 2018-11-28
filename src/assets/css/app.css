@@ -138,6 +138,8 @@ body {
             font-size: 16px; }
             .content-wrapper .main-header .large-menu-classname ul li a:hover {
               text-decoration: none; }
+          .content-wrapper .main-header .large-menu-classname ul li .submenu {
+            display: none; }
   .content-wrapper .main-footer {
     background-color: #0AA5FA;
     height: 32vh;
@@ -358,11 +360,11 @@ body {
           color: #FAFF10; }
           .content-wrapper #modulos .modulo-box:hover#b2b .inner-wrapper .box-title:after {
             background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587307/b2b_banner_cor.png); }
-      .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper {
+      .content-wrapper #modulos .modulo-box:hover#brows .inner-wrapper {
         background-color: #326875; }
-        .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper .box-title {
+        .content-wrapper #modulos .modulo-box:hover#brows .inner-wrapper .box-title {
           color: #0AA5FA; }
-          .content-wrapper #modulos .modulo-box:hover#browns .inner-wrapper .box-title:after {
+          .content-wrapper #modulos .modulo-box:hover#brows .inner-wrapper .box-title:after {
             background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587133/brows_banner_cor.png); }
       .content-wrapper #modulos .modulo-box:hover .inner-wrapper .box-desc {
         opacity: 1; }
@@ -393,12 +395,12 @@ body {
             width: 90px;
             height: 54px;
             background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542587308/b2b_banner_cinza.png); }
-      .content-wrapper #modulos .modulo-box#browns .inner-wrapper {
+      .content-wrapper #modulos .modulo-box#brows .inner-wrapper {
         background-color: #C1E6F4; }
-        .content-wrapper #modulos .modulo-box#browns .inner-wrapper .box-title {
+        .content-wrapper #modulos .modulo-box#brows .inner-wrapper .box-title {
           width: 205px;
           height: 45px; }
-          .content-wrapper #modulos .modulo-box#browns .inner-wrapper .box-title:after {
+          .content-wrapper #modulos .modulo-box#brows .inner-wrapper .box-title:after {
             width: 215px;
             height: 45px;
             background-image: url(https://res.cloudinary.com/hugo-cicarelli/image/upload/v1542585710/brows_banner_cinza.png); }
@@ -439,6 +441,19 @@ body {
           width: 45%;
           opacity: 0;
           font-weight: 300; }
+  .content-wrapper.criador #goku {
+    padding: 60px 0 160px; }
+    .content-wrapper.criador #goku h2 {
+      font-size: 7rem; }
+  .content-wrapper.criador #about .criador-pic {
+    border: 3px solid #FAFF10;
+    padding: 10px;
+    position: relative;
+    top: -12rem; }
+    .content-wrapper.criador #about .criador-pic img {
+      width: 100%; }
+  .content-wrapper.criador #about .criador-info {
+    padding: 75px 0 75px 150px; }
   .content-wrapper.inner-modulo-page {
     overflow: hidden; }
     .content-wrapper.inner-modulo-page .modulo-banner {

@@ -23,6 +23,14 @@ class Menu extends Component {
                         menu={
                             <ul>
                                 <li>
+                                    <Link to="/modulos/7bl">Módulos</Link>
+                                    <ul className="submenu">
+                                        <li>
+                                            <Link to="/modulos/7bl">7BL</Link>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
                                     <Link to="/relatorio">Projeto</Link>
                                 </li>
                                 <li>

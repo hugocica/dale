@@ -2,7 +2,7 @@ import Index from '../components/pages/index';
 import RelatorioIndex from '../components/pages/relatorio';
 import CriadorIndex from '../components/pages/criador';
 import ModuloB2b from '../components/pages/modulos/b2b';
-import ModuloBrowns from '../components/pages/modulos/browns';
+import ModuloBrows from '../components/pages/modulos/brows';
 import ModuloH2o2h from '../components/pages/modulos/h2o2h';
 import Modulo7bl from '../components/pages/modulos/setebl';
 import PageNotFound from '../components/errors/404';
@@ -27,10 +27,10 @@ export default [
         key: 'modulos.b2b'
     },
     {
-        path: '/modulos/browns',
+        path: '/modulos/brows',
         exact: true,
-        component: ModuloBrowns,
-        key: 'modulos.browns'
+        component: ModuloBrows,
+        key: 'modulos.brows'
     },
     {
         path: '/modulos/h2o2h',

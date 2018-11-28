@@ -108,6 +108,9 @@ body {
                             text-decoration: none;
                         }
                     }
+                    .submenu {
+                        display: none;
+                    }
                 }
             }
         }
@@ -460,7 +463,7 @@ body {
                         }
                     }
                 }
-                &#browns {
+                &#brows {
                     .inner-wrapper {
                         background-color: #326875;
 
@@ -527,7 +530,7 @@ body {
                     }
                 }
             }
-            &#browns {
+            &#brows {
                 .inner-wrapper {
                     background-color: #C1E6F4;
 
@@ -591,6 +594,32 @@ body {
                     opacity: 0;
                     font-weight: 300;
                 }
+            }
+        }
+    }
+
+    // CRIADOR
+    &.criador {
+        #goku {
+            padding: 60px 0 160px;
+
+            h2 {
+                font-size: 7rem;
+            }
+        }
+        #about {
+            .criador-pic {
+                border: 3px solid $dale-yellow;
+                padding: 10px;
+                position: relative;
+                top: -12rem;
+
+                img {
+                    width: 100%;
+                }
+            }
+            .criador-info {
+                padding: 75px 0 75px 150px;
             }
         }
     }

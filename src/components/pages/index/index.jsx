@@ -126,13 +126,13 @@ class IndexPage extends Component {
                                     </div>
                                 </Link>
 
-                                <Link to="/modulos/browns">
-                                    <div id="browns" className="modulo-box col-md-3">
+                                <Link to="/modulos/brows">
+                                    <div id="brows" className="modulo-box col-md-3">
                                         <div className="inner-wrapper">
                                             <div className="box-title"><p>BROWS</p></div>
                                             <div className="box-desc">Encontre pastas e músicas em meio à bagunça.</div>
                                             <div className="img-wrapper">
-                                                <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251623/brows.png" alt="browns modelo 3d"/>
+                                                <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251623/brows.png" alt="brows modelo 3d"/>
                                             </div>
                                         </div>
                                     </div>
