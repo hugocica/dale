@@ -2,7 +2,8 @@ body {
     margin: 0;
     font-family: $main-font;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
+    overflow-x: hidden;
 }
 
 .dale-btn {
@@ -340,7 +341,7 @@ body {
         }
     }
     #slider {
-        height: 70vh;
+        height: 78vh;
         position: relative;
         overflow: hidden;
         display: flex;
@@ -589,6 +590,68 @@ body {
                     width: 45%;
                     opacity: 0;
                     font-weight: 300;
+                }
+            }
+        }
+    }
+
+    // PÁGINA DE MÓDULOS
+    &.inner-modulo-page {
+        overflow: hidden;
+
+        .modulo-banner {
+            width: 100vw;
+            height: 40vh;
+            display: flex;
+            align-items: center;
+
+            .modulo-modelo {
+                position: absolute;
+                transform: rotate(15deg);
+                max-width: 165rem;
+                right: -25rem;
+                bottom: -20rem;
+
+                @include desktop-1366 {
+                    max-width: 138rem;
+                    right: -22rem;
+                    bottom: -14rem;
+                }
+            }
+        }
+        .modulo-infos {
+            width: 100vw;
+            padding: 40px 0 60px;
+
+            p {
+                // font-size: 2rem;
+            }
+            .destaque-wrapper {
+                margin-bottom: 50rem;
+
+                .frase-destaque {
+                    font-size: 3rem;
+                    max-width: 250px;
+                }
+            }
+            .detalhes-wrapper {
+                .top-detalhes {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    margin-bottom: 80px;
+
+                    .w50 {
+                        width: 50%;
+
+                        &:last-of-type {
+                            text-align: right;
+                            padding-top: 10rem;
+                        }
+                    }
+                }
+                .bottom-detalhes {
+
                 }
             }
         }

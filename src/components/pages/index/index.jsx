@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import Menu from '../../menu';
 import Footer from '../../footer';
 import DaleBtn from '../../dale-button';
-import {Link} from 'react-router-dom';
-import Input from '@material-ui/core/Input';
+import { Link } from 'react-router-dom';
 import MapeieIcon from '../../../assets/img/mapeie.svg';
 import OrganizeIcon from '../../../assets/img/organize.svg';
 import FacaIcon from '../../../assets/img/faca.svg';
@@ -23,9 +22,7 @@ class IndexPage extends Component {
                     <div className="main-container">
 
                         <section id="slider" className="reg-bg col-md-12">
-                            <video autoPlay loop autobuffer>
-                            <source src={BannerVideo} type="video/mp4" />
-                            </video>
+                            <video autoPlay loop autobuffer src={BannerVideo}></video>
                         </section>
 
                         <section id="descricao" className="col-md-12">
@@ -49,9 +46,11 @@ class IndexPage extends Component {
 
                         <section id="dale" className="light-bg col-md-12">
                             <div className="container">
-                                <h2>dale <span>(da<span>●</span>le)</span></h2>
-                                <p><span>v.</span> 1. Ceder gratuitamente. 2. Entregrar. 3. Distribuir</p>
-                                <p><span>interj.</span> Expressão que indica: 1. Vibração positiva, comemoração. 2. Enaltecer algo ou alguém. 3. Incentivo</p>
+                                <div className="col-md-12">
+                                    <h2>dale <span>(da<span>●</span>le)</span></h2>
+                                    <p><span>v.</span> 1. Ceder gratuitamente. 2. Entregrar. 3. Distribuir</p>
+                                    <p><span>interj.</span> Expressão que indica: 1. Vibração positiva, comemoração. 2. Enaltecer algo ou alguém. 3. Incentivo</p>
+                                </div>
                             </div>
                         </section>
 
@@ -91,45 +90,53 @@ class IndexPage extends Component {
 
                         <section id="modulos" className="col-md-12">
                             <div className="container">
-                                <div id="s7bl" className="modulo-box col-md-3">
-                                    <div className="inner-wrapper">
-                                        <div className="box-title"><p><span>7</span>BL</p></div>
-                                        <div className="box-desc">Deixe a próxima track no ponto exato pra festa nunca parar.</div>
-                                        <div className="img-wrapper">
-                                            <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251626/jog.png" alt="7bl jog modelo"/>
+                                <Link to="/modulos/7bl">
+                                    <div id="s7bl" className="modulo-box col-md-3">
+                                        <div className="inner-wrapper">
+                                            <div className="box-title"><p><span>7</span>BL</p></div>
+                                            <div className="box-desc">Deixe a próxima track no ponto exato pra festa nunca parar.</div>
+                                            <div className="img-wrapper">
+                                                <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251626/jog.png" alt="7bl jog modelo"/>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
 
-                                <div id="h2o2h" className="modulo-box col-md-3">
-                                    <div className="inner-wrapper">
-                                        <div className="box-title"><p>H<span>2</span>O<span className="inverse">2</span>H</p></div>
-                                        <div className="box-desc">Simplifique a maneira de discotecar à sua maneira.</div>
-                                        <div className="img-wrapper">
-                                            <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251631/h2o2.png" alt="h2o2h dale modelo"/>
+                                <Link to="/modulos/h2o2h">
+                                    <div id="h2o2h" className="modulo-box col-md-3">
+                                        <div className="inner-wrapper">
+                                            <div className="box-title"><p>H<span>2</span>O<span className="inverse">2</span>H</p></div>
+                                            <div className="box-desc">Simplifique a maneira de discotecar à sua maneira.</div>
+                                            <div className="img-wrapper">
+                                                <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251631/h2o2.png" alt="h2o2h dale modelo"/>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
 
-                                <div id="b2b" className="modulo-box col-md-3">
-                                    <div className="inner-wrapper">
-                                        <div className="box-title"><p>B<span>2</span>B</p></div>
-                                        <div className="box-desc">Discoteque em duplas ou se apresente em shows híbridos... ou os dois!</div>
-                                        <div className="img-wrapper">
-                                            <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251625/pad.png" alt="b2b pad dale"/>
+                                <Link to="/modulos/b2b">
+                                    <div id="b2b" className="modulo-box col-md-3">
+                                        <div className="inner-wrapper">
+                                            <div className="box-title"><p>B<span>2</span>B</p></div>
+                                            <div className="box-desc">Discoteque em duplas ou se apresente em shows híbridos... ou os dois!</div>
+                                            <div className="img-wrapper">
+                                                <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251625/pad.png" alt="b2b pad dale"/>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
 
-                                <div id="browns" className="modulo-box col-md-3">
-                                    <div className="inner-wrapper">
-                                        <div className="box-title"><p>BROWS</p></div>
-                                        <div className="box-desc">Encontre pastas e músicas em meio à bagunça.</div>
-                                        <div className="img-wrapper">
-                                            <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251623/brows.png" alt="browns modelo 3d"/>
+                                <Link to="/modulos/browns">
+                                    <div id="browns" className="modulo-box col-md-3">
+                                        <div className="inner-wrapper">
+                                            <div className="box-title"><p>BROWS</p></div>
+                                            <div className="box-desc">Encontre pastas e músicas em meio à bagunça.</div>
+                                            <div className="img-wrapper">
+                                                <img src="https://res.cloudinary.com/hugo-cicarelli/image/upload/v1543251623/brows.png" alt="browns modelo 3d"/>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                         </section>
 

@@ -61,7 +61,8 @@ body {
   margin: 0;
   font-family: "Work Sans";
   font-weight: 500;
-  font-size: 14px; }
+  font-size: 16px;
+  overflow-x: hidden; }
 
 .dale-btn {
   position: relative;
@@ -285,7 +286,7 @@ body {
       display: flex;
       justify-content: center; }
   .content-wrapper #slider {
-    height: 70vh;
+    height: 78vh;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -438,3 +439,39 @@ body {
           width: 45%;
           opacity: 0;
           font-weight: 300; }
+  .content-wrapper.inner-modulo-page {
+    overflow: hidden; }
+    .content-wrapper.inner-modulo-page .modulo-banner {
+      width: 100vw;
+      height: 40vh;
+      display: flex;
+      align-items: center; }
+      .content-wrapper.inner-modulo-page .modulo-banner .modulo-modelo {
+        position: absolute;
+        transform: rotate(15deg);
+        max-width: 165rem;
+        right: -25rem;
+        bottom: -20rem; }
+        @media (max-width: 1366px) {
+          .content-wrapper.inner-modulo-page .modulo-banner .modulo-modelo {
+            max-width: 138rem;
+            right: -22rem;
+            bottom: -14rem; } }
+    .content-wrapper.inner-modulo-page .modulo-infos {
+      width: 100vw;
+      padding: 40px 0 60px; }
+      .content-wrapper.inner-modulo-page .modulo-infos .destaque-wrapper {
+        margin-bottom: 50rem; }
+        .content-wrapper.inner-modulo-page .modulo-infos .destaque-wrapper .frase-destaque {
+          font-size: 3rem;
+          max-width: 250px; }
+      .content-wrapper.inner-modulo-page .modulo-infos .detalhes-wrapper .top-detalhes {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 80px; }
+        .content-wrapper.inner-modulo-page .modulo-infos .detalhes-wrapper .top-detalhes .w50 {
+          width: 50%; }
+          .content-wrapper.inner-modulo-page .modulo-infos .detalhes-wrapper .top-detalhes .w50:last-of-type {
+            text-align: right;
+            padding-top: 10rem; }
